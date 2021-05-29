@@ -7,7 +7,7 @@
 
 + The best result was obtained using Gradient Boosting Regressor with a R2 value of 0.897
 
-<img src="new.jpg" width="800" />![](https://github.com/ANANDA89/portfolio/blob/main/images/new.PNG)
+<img src="https://github.com/ANANDA89/portfolio/blob/main/images/new.PNG" width="800" />
 
 # Project 2
 ## [Customer Segmentation](https://github.com/ANANDA89/Customer-Segmentation)
