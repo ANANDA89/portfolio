@@ -7,7 +7,7 @@
 
 + The best result was obtained using Gradient Boosting Regressor with a R2 value of 0.897
 
-![image](https://github.com/ANANDA89/Medical-Cost-Prediction/blob/main/2021-05-09-16-47-13.png)
+![image](https://github.com/ANANDA89/Medical-Cost-Prediction/blob/main/images/new.png)
 
 # Project 2
 ## [Customer Segmentation](https://github.com/ANANDA89/Customer-Segmentation)
