@@ -15,6 +15,9 @@
 + Overall among all the models best result was obtained using LSTM based technique.
 + UI Building & Deployment using Amazon-AWS EC2.
 
+![](https://github.com/ANANDA89/portfolio/blob/main/Models_Performance.png)
+
+
 # Project 2
 ## [Medical Cost Prediction](https://github.com/ANANDA89/Medical-Cost-Prediction)
 
@@ -90,3 +93,26 @@
 + An interactive function was created using the Ipywidgets to get a list of Most Useful and Most Useless Drugs for each Medical Condition.
 + Duplicate drugs were removed from dataset using drop_dupicates function.
 + Another interactive function was created using Ipywidgets which will print the names of Top 5 Most Useful Drug and Top 5 Most Useless Drugs for a Particular Medical Condition, with their Usefulness Rating.
+
+# Project 8
+## [Twitter Sentiment Amalysis designing a Sentiment Analyzer Engine](https://github.com/ANANDA89/Sentiment-Analyzer-Engine)
+
++ Data was scraped from Twitter through twitter API to find statement.
++ Data Cleaning was done by dropping nmbers, alphabets, links with space.
++ Words were coverted to lower case.
++ Lemmatization was done for converting a word to its base form.For this purpose “wordnet lemmatizer” function was used.
++ Stop words were removed using nltk corpus library.
++ “textblob” function was used to to find the sentiment of the tweets.
++ Data Visualization was performed plotting a pie chart showing what percentage of tweets are positive,what percentage of tweets are negative , and what percentage of tweets are neutral.
+# Project 9
+## [Sentiment Analyzier to find twitter sentiment](https://github.com/ANANDA89/Sentiment-Analyzer-Engine)
+
++ Pathlib glob method is used to fetch all the image paths which are two layers below the Training directory.
++ A function was  takes in an image path and returns its label based on the logic.
++ sklearn’s Label Encode function was used which takes an image path and returns its label based on the logi.An Object was created for Label Encoder and Fit Transform all the labels.
++ Training labels were passed to "To categorical" fuction provided by Tensorflow to obtain one hot encoded values which is required to get vector as output which is needed for Multi Class Classification.
++ Train split function was used to split the data in training and validation.
++ A function was created to Load the image path as an encoded string using the “read_file” function provided by tensorflow, next decode this encoded string using “decode_jpeg” function. The decoded value is nothing but the Image tensor.At last Image tensor and the label were returned.
++ Data Augmentation was done to create a sequential object and define transformations in it.“resize” transformation was used.
++ Three Deep Learning based models ResNet50 , Inception V3 and EfficientNetB3 were trained and their performances were compared to select the best out of them. EfficientNetB3 proved to be the best model.
++ Before testing the model on test data best weights using the “load_weights” method were loaded to create a fresh model and the best model was evaluated on the test data.
